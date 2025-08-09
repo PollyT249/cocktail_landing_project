@@ -12,10 +12,6 @@ const navLinks = [
     title: "The Art",
   },
   {
-    id: "menu",
-    title: "Menu",
-  },
-  {
     id: "contact",
     title: "Contact",
   },
@@ -75,6 +71,21 @@ const mockTailLists = [
   },
 ];
 
+const profileLists = [
+  {
+    imgPath: "/images/profile1.png",
+  },
+  {
+    imgPath: "/images/profile2.png",
+  },
+  {
+    imgPath: "/images/profile3.png",
+  },
+  {
+    imgPath: "/images/profile4.png",
+  },
+];
+
 const featureLists = [
   "Perfectly balanced blends",
   "Garnished to perfection",
@@ -87,6 +98,43 @@ const goodLists = [
   "Signature techniques",
   "Bartending artistry in action",
   "Freshly muddled flavors",
+];
+
+const storeInfo = {
+  heading: "Where to Find Us",
+  address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+  contact: {
+    phone: "(555) 987-6543",
+    email: "hello@jsmcocktail.com",
+  },
+};
+
+const openingHours = [
+  { day: "Mon–Thu", time: "11:00am – 12am" },
+  { day: "Fri", time: "11:00am – 2am" },
+  { day: "Sat", time: "9:00am – 2am" },
+  { day: "Sun", time: "9:00am – 1am" },
+];
+
+const socials = [
+  {
+    name: "Instagram",
+    icon: "/images/insta.png",
+    url: "#",
+    alt: "Instagram icon",
+  },
+  {
+    name: "X (Twitter)",
+    icon: "/images/x.png",
+    url: "#",
+    alt: "Twitter icon",
+  },
+  {
+    name: "Facebook",
+    icon: "/images/fb.png",
+    url: "#",
+    alt: "Facebook icon",
+  },
 ];
 
 const allCocktails = [
@@ -128,7 +176,11 @@ export {
   navLinks,
   cocktailLists,
   mockTailLists,
+  profileLists,
   featureLists,
   goodLists,
+  openingHours,
+  storeInfo,
+  socials,
   allCocktails,
 };
