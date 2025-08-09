@@ -18,7 +18,7 @@ const Cocktails = () => {
         x: -100,
         y: 100,
       })
-      .from("#c-right-leaf", {
+      .from("#c-right-leaves", {
         x: 100,
         y: 100,
       });
@@ -28,9 +28,9 @@ const Cocktails = () => {
     <section id="cocktails" className="noisy">
       <img src="/images/cocktail-left-leaf.png" alt="l-leaf" id="c-left-leaf" />
       <img
-        src="/images/cocktail-right-leaf.png"
+        src="/images/cocktail-right-leaves.png"
         alt="r-leaf"
-        id="c-right-leaf"
+        id="c-right-leaves"
       />
 
       <div className="list">

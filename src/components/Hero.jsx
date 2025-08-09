@@ -94,9 +94,9 @@ const Hero = () => {
         </h1>
 
         <img
-          src="/images/hero-left-leaf.png"
+          src="/images/hero-left-leaves.png"
           alt="left-leaf"
-          className="left-leaf"
+          className="left-leaves"
           ref={leftLeafRef}
         />
         <img
