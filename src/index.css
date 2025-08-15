@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 @import "tailwindcss";
 
 @theme {
-  --color-yellow: rgb(222, 252, 249);
-  --color-white-100: rgb(239, 239, 239);
-  --font-merienda: "Merienda", cursive;
-  --font-sans: "Montserrat Alternates", sans-serif;
+  --color-light-green: rgb(140, 186, 81);
+  --color-light-yellow: rgb(220, 231, 117);
+  --font-fondamento: "Fondamento", cursive;
+  --font-sans: "Josefin Sans", sans-serif;
 }
 
 html,
 body {
   width: 100%;
   background-color: #000000;
-  color: #fffcc1;
+  color: rgb(255, 252, 193);
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -78,7 +78,7 @@ body {
     }
 
     p {
-      @apply font-merienda text-3xl -mb-2;
+      @apply font-fondamento text-3xl -mb-2;
     }
 
     a {
@@ -86,7 +86,7 @@ body {
     }
 
     a:hover {
-      @apply overline;
+      @apply text-purple-100;
     }
 
     ul {
@@ -102,15 +102,15 @@ body {
     @apply relative z-10 min-h-dvh w-full border border-transparent;
 
     h1 {
-      @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-merienda;
+      @apply md:mt-32 mt-40 text-6xl md:text-[20vw] leading-none text-center font-fondamento;
     }
 
     .left-leaves {
-      @apply absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3 h-[686px] object-contain;
+      @apply absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3;
     }
 
     .right-leaf {
-      @apply absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24 h-[786px] object-contain;
+      @apply absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24;
     }
 
     .body {
@@ -120,7 +120,7 @@ body {
         @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
 
         p:nth-of-type(2) {
-          @apply font-merienda text-6xl text-yellow max-w-xl;
+          @apply font-fondamento text-6xl text-yellow-200 max-w-xl;
         }
 
         p:last-of-type {
@@ -135,7 +135,7 @@ body {
           }
 
           a {
-            @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow;
+            @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow-200;
           }
         }
       }
@@ -150,11 +150,11 @@ body {
     @apply relative min-h-dvh w-full overflow-hidden;
 
     #c-left-leaf {
-      @apply absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3 h-[586px] object-contain;
+      @apply absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
     }
 
     #c-right-leaves {
-      @apply absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3 h-[786px] object-contain;
+      @apply absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
     }
 
     .list {
@@ -179,7 +179,7 @@ body {
           @apply flex justify-between items-start;
 
           h3 {
-            @apply font-merienda 2xl:text-3xl text-xl text-yellow;
+            @apply font-fondamento 2xl:text-3xl text-xl text-yellow-200;
           }
 
           p {
@@ -201,7 +201,7 @@ body {
       @apply grid grid-cols-1 lg:grid-cols-12 gap-5;
 
       h2 {
-        @apply text-5xl md:text-6xl font-merienda max-w-lg;
+        @apply text-5xl md:text-6xl font-fondamento max-w-lg;
       }
 
       .sub-content {
@@ -219,7 +219,7 @@ body {
           @apply flex flex-col justify-between md:gap-2 gap-5;
 
           span {
-            @apply text-yellow font-bold text-5xl;
+            @apply text-yellow-200 font-bold text-5xl;
           }
         }
 
@@ -270,7 +270,7 @@ body {
     @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
     h2 {
-      @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-merienda text-center text-[#f2c0ff] mb-8;
+      @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-fondamento text-center text-[#f4c8ff] mb-8;
     }
 
     .content {
@@ -283,7 +283,7 @@ body {
 
     .masked-container {
       h2 {
-        @apply text-4xl md:text-5xl font-merienda text-center mb-10 text-white mt-32;
+        @apply text-4xl md:text-5xl font-fondamento text-center mb-10 text-white mt-32;
       }
 
       div {
@@ -304,18 +304,18 @@ body {
     @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
 
     .m-left-leaves {
-      @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3 h-[886px];
+      @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
     }
 
     .m-right-leaves {
-      @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4 h-[766px];
+      @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4;
     }
 
     .cocktail-tabs {
       @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 sm:mb-32 mb-20 relative z-10 md:max-w-6xl md:mx-auto;
 
       button {
-        @apply md:text-3xl text-xl pb-2 cursor-pointer hover:text-yellow hover:border-yellow border-b-1 transition-colors font-merienda;
+        @apply md:text-3xl text-xl pb-2 cursor-pointer hover:text-yellow-200 hover:border-yellow-300 border-b-1 transition-colors font-fondamento;
       }
     }
 
@@ -326,10 +326,10 @@ body {
         @apply flex items-center justify-between w-full absolute;
 
         button {
-          @apply text-white hover:text-yellow cursor-pointer transition-colors max-w-36;
+          @apply text-white hover:text-yellow-200 cursor-pointer transition-colors max-w-36;
 
           span {
-            @apply text-3xl font-merienda leading-none hidden md:block;
+            @apply text-3xl font-fondamento leading-none hidden md:block;
           }
         }
       }
@@ -339,7 +339,7 @@ body {
       @apply flex-center mt-10;
 
       img {
-        @apply object-contain h-[60vh];
+        @apply object-contain w-full h-auto max-w-[294px] sm:max-w-[320px] md:max-w-[350px];
       }
     }
 
@@ -350,7 +350,7 @@ body {
         @apply space-y-4 lg:translate-y-20;
 
         #title {
-          @apply font-merienda md:text-6xl text-3xl text-yellow max-w-40;
+          @apply font-fondamento md:text-6xl text-3xl text-yellow-200 max-w-40;
         }
       }
 
@@ -372,18 +372,18 @@ body {
     @apply relative md:mt-20 mt-0 px-4 text-center w-full overflow-hidden radial-gradient;
 
     #f-left-leaves {
-      @apply absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3 h-[886px];
+      @apply absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3;
     }
 
     #f-right-leaf {
-      @apply absolute top-0 right-0 pointer-events-none hidden lg:block h-[768px];
+      @apply absolute top-0 right-0 pointer-events-none hidden lg:block;
     }
 
     .content {
       @apply container mx-auto sm:py-12 lg:py-14 2xl:py-32 py-16 flex flex-col justify-between gap-4 sm:gap-6 lg:gap-10 min-h-dvh;
 
       h2 {
-        @apply lg:text-6xl 2xl:text-8xl text-5xl font-merienda md:translate-y-0 translate-y-5;
+        @apply lg:text-6xl 2xl:text-8xl text-5xl font-fondamento md:translate-y-0 translate-y-5;
       }
 
       h3 {

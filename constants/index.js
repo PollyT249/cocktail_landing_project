@@ -12,6 +12,10 @@ const navLinks = [
     title: "The Art",
   },
   {
+    id: "menu",
+    title: "Menu",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -142,33 +146,33 @@ const allCocktails = [
     id: 1,
     name: "Classic Mojito",
     image: "/images/drink1.png",
-    title: "Simple Ingredients, Bold Flavor",
+    title: "A Classic That Never Fails",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "Made with white rum, fresh mint, lime juice, ice cubes, and club soda or sparkling water. Perfect for those who like classics on summer nights.",
   },
   {
     id: 2,
     name: "Raspberry Mojito",
     image: "/images/drink2.png",
-    title: "A Zesty Classic That Never Fails",
+    title: "Simple Ingredients, Bold Flavor",
     description:
-      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+      "Made with white rum, fresh mint, lime juice, ice cubes, club soda or sparkling water, fresh raspberries and a touch of sweetness. Shaken, frozen, or on the rocks — it’s always crisp & refreshing.",
   },
   {
     id: 3,
     name: "Violet Breeze",
     image: "/images/drink3.png",
-    title: "Simple Ingredients, Bold Flavor",
+    title: "A perfect drink for a warm spring day",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "Made with vodka, fresh lemon juice and lime juice, triple sec, ice cubes, and club soda. Add a salted rim for the perfect drink on party nights.",
   },
   {
     id: 4,
     name: "Curacao Mojito",
     image: "/images/drink4.png",
-    title: "Crafted With Care, Poured With Love",
+    title: "The cocktail with a citrusy and blue hue twist",
     description:
-      "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+      "Made with coconut rum, fresh mint, lime juice, blue curacao, ice cubes, soda, and a touch of sweetness. Perfectly refreshing whether you're celebrating or simply relaxing.",
   },
 ];
 
