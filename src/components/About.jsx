@@ -91,7 +91,8 @@ const About = () => {
           <div className="md:col-span-8">
             <p className="badge">Best Cocktails</p>
             <h2 ref={titleRef}>
-              Where every detail matters <span className="text-white">- </span>
+              Where every detail matters{" "}
+              <span className="text-[#f1edb3]">- </span>
               from muddle to garnish
             </h2>
           </div>

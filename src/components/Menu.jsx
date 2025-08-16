@@ -121,7 +121,7 @@ const Menu = () => {
               key={cocktail.id}
               className={`${
                 isActive
-                  ? "text-white border-white"
+                  ? "text-[#f1edb3] border-[#f1edb3]"
                   : "text-white/50 border-white/50"
               }`}
               onClick={() => goToSlide(index)}
