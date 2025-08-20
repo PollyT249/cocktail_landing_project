@@ -3,10 +3,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-green: rgb(140, 186, 81);
-  --color-yellow: rgb(251, 242, 124);
+  --color-green: rgb(178, 212, 48);
+  --color-yellow: rgb(241, 248, 100);
   --color-light-yellow: rgb(241, 237, 179);
-  --color-light-green: rgb(163, 222, 131);
+  --color-light-green: rgb(175, 250, 90);
   --font-fondamento: "Fondamento", cursive;
   --font-sans: "Josefin Sans", sans-serif;
 }
@@ -47,10 +47,18 @@ body {
 }
 
 @utility text-gradient {
-  background: linear-gradient(to bottom, rgb(241, 237, 179), rgb(161, 196, 90));
+  display: inline-block;
+  background: linear-gradient(
+    to bottom,
+    rgb(241, 248, 100),
+    rgb(178, 212, 48),
+    rgb(56, 142, 60)
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 @utility radial-gradient {
@@ -82,7 +90,7 @@ body {
     @apply fixed z-50 w-full;
 
     div {
-      @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5 container mx-auto;
+      @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-4 px-5 container mx-auto;
     }
 
     p {
@@ -94,7 +102,7 @@ body {
     }
 
     a:hover {
-      @apply text-[#a1c45a];
+      @apply text-light-green;
     }
 
     ul {
@@ -110,7 +118,7 @@ body {
     @apply relative z-10 min-h-dvh w-full border border-transparent;
 
     h1 {
-      @apply md:mt-32 mt-40 text-6xl md:text-[20vw] leading-none text-center font-fondamento;
+      @apply md:mt-16 mt-40 text-6xl md:text-[20vw] leading-none text-center font-fondamento;
     }
 
     .left-leaves {
@@ -122,7 +130,7 @@ body {
     }
 
     .body {
-      @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5;
+      @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-10 top-auto md:top-[30vh] flex justify-between items-end px-5;
 
       .content {
         @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
@@ -220,7 +228,7 @@ body {
         }
 
         .star-rate {
-          @apply flex justify-start items-center gap-2 mb-2;
+          @apply flex justify-start items-center gap-3 mb-2;
         }
 
         div {
@@ -278,11 +286,11 @@ body {
     @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
     h2 {
-      @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-fondamento text-center text-[#ddf0c29d] mb-8;
+      @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-fondamento text-center text-[#c0fd6ba1] mb-8;
     }
 
     .content {
-      @apply flex md:flex-row flex-col items-center sm:items-start sm:justify-between md:mb-16 md:mt-0 mt-40 gap-10;
+      @apply flex md:flex-row flex-col items-center sm:justify-between md:mb-16 md:mt-0 mt-40 gap-10;
     }
 
     .cocktail-img {
@@ -295,14 +303,14 @@ body {
       }
 
       div {
-        @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-62 left-1/2 -translate-x-1/2;
+        @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-92 left-1/2 -translate-x-1/2;
 
         img {
-          @apply w-full object-contain absolute bottom-25 right-0 max-sm:-translate-x-1/2 max-sm:-translate-y-1/2;
+          @apply w-full object-contain absolute max-md:-translate-x-[30px] max-md:-translate-y-[140px];
         }
 
         h3 {
-          @apply md:text-5xl text-2xl text-center font-sans md:w-full w-80 translate-y-5 text-light-green;
+          @apply md:text-4xl text-2xl text-center font-sans w-full translate-y-5 text-gradient;
         }
 
         p {
@@ -351,7 +359,7 @@ body {
       @apply flex-center mt-10;
 
       img {
-        @apply object-contain w-full h-auto max-w-[294px] sm:max-w-[320px] md:max-w-[350px];
+        @apply object-contain w-[230px] sm:w-full h-auto;
       }
     }
 
@@ -362,7 +370,7 @@ body {
         @apply space-y-4 lg:translate-y-0 lg:translate-x-30;
 
         #title {
-          @apply font-fondamento md:text-6xl text-3xl text-green max-w-40;
+          @apply font-fondamento md:text-6xl text-3xl text-gradient max-w-66;
         }
       }
 

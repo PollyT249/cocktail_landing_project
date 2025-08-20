@@ -37,9 +37,12 @@ const Art = () => {
         <h2 className="will-fade">The ART</h2>
 
         <div className="content">
-          <ul className="space-y-4 will-fade flex flex-col items-center sm:items-start w-[260px] sm:w-auto">
+          <ul className="space-y-4 will-fade flex flex-col items-center w-[260px] sm:w-auto">
             {goodLists.map((feature, index) => (
-              <li key={index} className="flex items-center justify-start gap-2">
+              <li
+                key={index}
+                className="flex items-center justify-center gap-2"
+              >
                 <img src="/images/check.png" alt="check" />
                 <p className="w-full text-left">{feature}</p>
               </li>
@@ -54,9 +57,12 @@ const Art = () => {
             />
           </div>
 
-          <ul className="space-y-4 will-fade flex flex-col items-center sm:items-start w-[260px] sm:w-auto">
+          <ul className="space-y-4 will-fade flex flex-col items-center w-[260px] sm:w-auto">
             {featureLists.map((feature, index) => (
-              <li key={index} className="flex items-center justify-start gap-2">
+              <li
+                key={index}
+                className="flex items-center justify-center gap-2"
+              >
                 <img src="/images/check.png" alt="check" />
                 <p className="w-full text-left">{feature}</p>
               </li>
@@ -70,7 +76,7 @@ const Art = () => {
           <div id="masked-content">
             <img
               src="/images/cocktails.png"
-              alt="cocktails-set"
+              alt="cocktails"
               className="md:hidden"
             />
 

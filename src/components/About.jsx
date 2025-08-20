@@ -55,7 +55,7 @@ const About = () => {
             duration: 1.3,
             ease: "expo.out",
             stagger: 0.04,
-            delay: 0.4,
+            delay: 0.04,
           })
           .fromTo(
             reviewFlexRef.current,
@@ -65,7 +65,7 @@ const About = () => {
               duration: 1,
               ease: "power1.inOut",
               stagger: 0.04,
-              delay: 0.5,
+              delay: 0.05,
             }
           )
           .fromTo(
@@ -92,13 +92,13 @@ const About = () => {
             <p className="badge">Best Cocktails</p>
             <h2 ref={titleRef}>
               Where every detail matters{" "}
-              <span className="text-[#a7cd78]">- </span>
+              <span className="text-light-green">- </span>
               from muddle to garnish
             </h2>
           </div>
 
           <div className="sub-content">
-            <p ref={paragraphRef} className="text-[#f1edb3]">
+            <p ref={paragraphRef} className="text-light-yellow">
               Every cocktail we serve reflects our obsession with detail — from
               the first muddle to the final garnish. It’s that care that
               transforms a simple drink into something truly memorable.
@@ -116,7 +116,7 @@ const About = () => {
                 <p className="md:text-3xl text-xl font-bold">
                   <span>4.5</span>/5
                 </p>
-                <p className="text-sm text-[#f1edb3]">
+                <p className="text-sm text-light-yellow">
                   More than +12000 customers
                 </p>
               </div>
@@ -129,7 +129,7 @@ const About = () => {
                 />
               </span>
 
-              <span className="linear-gradient users-icons flex-center  -space-x-3">
+              <span className="linear-gradient users-icons flex-center -space-x-5">
                 <img
                   src="/images/profile1.png"
                   alt="profile 1"
