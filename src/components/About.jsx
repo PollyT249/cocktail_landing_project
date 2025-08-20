@@ -64,8 +64,8 @@ const About = () => {
               opacity: 1,
               duration: 1,
               ease: "power1.inOut",
-              stagger: 0.06,
-              delay: 0.6,
+              stagger: 0.04,
+              delay: 0.5,
             }
           )
           .fromTo(
@@ -76,7 +76,7 @@ const About = () => {
               duration: 1,
               ease: "power1.inOut",
               stagger: 0.04,
-              delay: 1,
+              delay: 0.06,
             },
             "-=0.5"
           );
@@ -92,13 +92,13 @@ const About = () => {
             <p className="badge">Best Cocktails</p>
             <h2 ref={titleRef}>
               Where every detail matters{" "}
-              <span className="text-[#f1edb3]">- </span>
+              <span className="text-[#a7cd78]">- </span>
               from muddle to garnish
             </h2>
           </div>
 
           <div className="sub-content">
-            <p ref={paragraphRef}>
+            <p ref={paragraphRef} className="text-[#f1edb3]">
               Every cocktail we serve reflects our obsession with detail — from
               the first muddle to the final garnish. It’s that care that
               transforms a simple drink into something truly memorable.
@@ -107,16 +107,16 @@ const About = () => {
             <section className="review-flex-between" ref={reviewFlexRef}>
               <div>
                 <p className="star-rate">
-                  <img src="/images/star.png" alt="star-img-1" />
-                  <img src="/images/star.png" alt="star-img-2" />
-                  <img src="/images/star.png" alt="star-img-3" />
-                  <img src="/images/star.png" alt="star-img-4" />
-                  <img src="/images/star.png" alt="star-img-5" />
+                  <img src="/images/star-full.png" alt="star-img-1" />
+                  <img src="/images/star-full.png" alt="star-img-2" />
+                  <img src="/images/star-full.png" alt="star-img-3" />
+                  <img src="/images/star-full.png" alt="star-img-4" />
+                  <img src="/images/star-half.png" alt="star-img-5" />
                 </p>
                 <p className="md:text-3xl text-xl font-bold">
                   <span>4.5</span>/5
                 </p>
-                <p className="text-sm text-white-100">
+                <p className="text-sm text-[#f1edb3]">
                   More than +12000 customers
                 </p>
               </div>

@@ -66,7 +66,14 @@ const Art = () => {
 
         <div className="masked-container">
           <h2 className="will-fade">Sip-Worthy Perfection</h2>
+
           <div id="masked-content">
+            <img
+              src="/images/cocktails.png"
+              alt="cocktails-set"
+              className="md:hidden"
+            />
+
             <h3>Made with Craft, Poured with Passion</h3>
             <p>
               This isn’t just a drink. It’s a carefully crafted moment made just
