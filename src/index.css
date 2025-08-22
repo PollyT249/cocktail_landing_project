@@ -217,7 +217,7 @@ body {
       @apply grid grid-cols-1 lg:grid-cols-12 gap-5;
 
       h2 {
-        @apply text-5xl md:text-6xl font-fondamento max-w-lg text-light-green;
+        @apply text-5xl md:text-6xl font-fondamento max-w-lg text-yellow;
       }
 
       .sub-content {

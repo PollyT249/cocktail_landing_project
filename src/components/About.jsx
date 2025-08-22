@@ -91,17 +91,17 @@ const About = () => {
           <div className="md:col-span-8">
             <p className="badge">Best Cocktails</p>
             <h2 ref={titleRef}>
-              Where every detail matters{" "}
-              <span className="text-light-green">- </span>
-              from muddle to garnish
+              Crafted with care, <br />{" "}
+              <span className="text-light-green">from the first mix</span>{" "}
+              <span className="text-green"> to the final flourish</span>
             </h2>
           </div>
 
           <div className="sub-content">
             <p ref={paragraphRef} className="text-light-yellow">
-              Every cocktail we serve reflects our obsession with detail — from
-              the first muddle to the final garnish. It’s that care that
-              transforms a simple drink into something truly memorable.
+              From preparation to presentation, every cocktail embodies our
+              commitment to craft. It’s the little details that turn each drink
+              into a lasting memory.
             </p>
 
             <section className="review-flex-between" ref={reviewFlexRef}>

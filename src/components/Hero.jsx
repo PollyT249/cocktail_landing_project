@@ -109,17 +109,16 @@ const Hero = () => {
         <div className="body">
           <div className="content">
             <div className="space-y-5 hidden md:block">
-              <p>Cool. Crisp. Classic.</p>
+              <p>Smooth. Fresh. Timeless.</p>
               <p className="subtitle" ref={subtitleRef}>
-                Sip the Spirit <br /> of Summer
+                Capture Summer <br /> in Every Sip
               </p>
             </div>
 
             <div className="view-cocktails">
               <p className="subtitle">
-                Every cocktail on our menu blends premium ingredients, creative
-                flair, and timeless recipes — all crafted to delight your
-                senses.
+                Each drink is created with fresh ingredients and a touch of
+                inspiration — designed to lift your mood and awaken your senses.
               </p>
               <a href="#cocktails">View cocktails</a>
             </div>

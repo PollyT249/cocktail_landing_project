@@ -23,55 +23,55 @@ const navLinks = [
 
 const cocktailLists = [
   {
-    name: "Chapel Hill Shiraz",
+    name: "Classic Mojito",
     country: "AU",
-    detail: "Battle",
-    price: "$10",
+    detail: "750 ml",
+    price: "$18",
   },
   {
-    name: "Caten Malbee",
+    name: "Raspberry Mojito",
     country: "AU",
-    detail: "Battle",
-    price: "$49",
+    detail: "650 ml",
+    price: "$24",
   },
   {
-    name: "Rhino Pale Ale",
+    name: "Violet Breeze",
     country: "CA",
     detail: "750 ml",
-    price: "$20",
+    price: "$26",
   },
   {
-    name: "Irish Guinness",
+    name: "Curacao Mojito",
     country: "IE",
-    detail: "600 ml",
+    detail: "650 ml",
     price: "$29",
   },
 ];
 
 const mockTailLists = [
   {
-    name: "Tropical Bloom",
+    name: "Mojito Mocktail",
     country: "US",
-    detail: "Battle",
-    price: "$10",
+    detail: "350 ml",
+    price: "$18",
   },
   {
-    name: "Passionfruit Mint",
+    name: "Passion fruit Martini",
     country: "US",
-    detail: "Battle",
-    price: "$49",
+    detail: "550 ml",
+    price: "$26",
   },
   {
-    name: "Citrus Glow",
+    name: "Pina colada Mocktail",
     country: "CA",
     detail: "750 ml",
-    price: "$20",
+    price: "$29",
   },
   {
-    name: "Lavender Fizz",
+    name: "Pineapple Mocktail",
     country: "IE",
     detail: "600 ml",
-    price: "$29",
+    price: "$34",
   },
 ];
 
@@ -91,17 +91,17 @@ const profileLists = [
 ];
 
 const featureLists = [
-  "Perfectly balanced blends",
-  "Garnished to perfection",
-  "Ice-cold every time",
-  "Expertly shaken & stirred",
+  "Flavors in perfect harmony",
+  "Finished with a flawless touch",
+  "Chilled to refresh, every time",
+  "Shaken and stirred with mastery",
 ];
 
 const goodLists = [
-  "Handpicked ingredients",
-  "Signature techniques",
-  "Bartending artistry in action",
-  "Freshly muddled flavors",
+  "Ingredients chosen with care",
+  "Unique methods that define us",
+  "The craft of bartending, perfected",
+  "Vibrant flavors, freshly muddled",
 ];
 
 const storeInfo = {
