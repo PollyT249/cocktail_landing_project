@@ -305,11 +305,11 @@ body {
       div {
         @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-92 left-1/2 -translate-x-1/2;
 
-        .a-left-leaves {
+        .a-left-leaf {
           @apply object-contain absolute -bottom-10 max-sm:-bottom-30 -left-80 max-md:-left-40 w-full -z-10;
         }
 
-        .a-right-leaves {
+        .a-right-leaf {
           @apply object-contain absolute -bottom-30 max-sm:bottom-20 -right-80 max-md:-right-40 w-full -z-10;
         }
 

@@ -88,13 +88,13 @@ const Art = () => {
           <div id="masked-content">
             <img
               src="/images/a-left-leaf.png"
-              alt="cocktails"
-              className="a-left-leaves"
+              alt="l-leaf"
+              className="a-left-leaf"
             />
             <img
               src="/images/a-right-leaf.png"
-              alt="cocktails"
-              className="a-right-leaves"
+              alt="r-leaf"
+              className="a-right-leaf"
             />
 
             <h3>Crafted with care, served with soul.</h3>
