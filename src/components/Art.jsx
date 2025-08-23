@@ -29,6 +29,18 @@ const Art = () => {
         ease: "power1.inOut ",
       })
       .to("#masked-content", { opacity: 1, duration: 1, ease: "power1.inOut" });
+
+    gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: "#masked-content",
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+        },
+      })
+      .to(".a-left-leaf", { x: -100 }, 0)
+      .to(".a-right-leaf", { x: 100 }, 0);
   });
 
   return (
@@ -74,11 +86,16 @@ const Art = () => {
           <h2 className="will-fade">Pure perfection in every sip.</h2>
 
           <div id="masked-content">
-            {/* <img
-              src="/images/cocktails.png"
+            <img
+              src="/images/a-left-leaf.png"
               alt="cocktails"
-              className="md:hidden"
-            /> */}
+              className="a-left-leaves"
+            />
+            <img
+              src="/images/a-right-leaf.png"
+              alt="cocktails"
+              className="a-right-leaves"
+            />
 
             <h3>Crafted with care, served with soul.</h3>
             <p>

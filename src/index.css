@@ -122,7 +122,7 @@ body {
     }
 
     .left-leaves {
-      @apply absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-60 md:w-fit sm:w-1/2;
+      @apply absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-60 md:w-fit max-sm:w-1/2;
     }
 
     .right-leaf {
@@ -305,16 +305,20 @@ body {
       div {
         @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-92 left-1/2 -translate-x-1/2;
 
-        img {
-          @apply w-full object-contain absolute max-md:-translate-x-[30px] max-md:-translate-y-[140px];
+        .a-left-leaves {
+          @apply object-contain absolute -bottom-10 max-sm:-bottom-30 -left-80 max-md:-left-40 w-full -z-10;
+        }
+
+        .a-right-leaves {
+          @apply object-contain absolute -bottom-30 max-sm:bottom-20 -right-80 max-md:-right-40 w-full -z-10;
         }
 
         h3 {
-          @apply md:text-4xl text-2xl text-center font-sans w-full translate-y-5 text-gradient;
+          @apply lg:text-5xl max-sm:text-4xl text-2xl text-center font-sans w-full translate-y-5 text-gradient;
         }
 
         p {
-          @apply text-lg text-center;
+          @apply text-xl text-center;
         }
       }
     }
