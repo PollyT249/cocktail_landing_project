@@ -106,7 +106,7 @@ body {
     }
 
     ul {
-      @apply flex-center lg:gap-12 gap-7;
+      @apply flex-center lg:gap-12 gap-7 max-sm:gap-4;
     }
   }
 
@@ -224,7 +224,7 @@ body {
         @apply md:col-span-4 space-y-5 flex flex-col justify-between;
 
         p {
-          @apply text-lg;
+          @apply text-lg text-pretty;
         }
 
         .star-rate {
@@ -248,7 +248,7 @@ body {
         }
 
         .users-icons {
-          @apply rounded-[60px] w-[196px] h-[85px];
+          @apply rounded-[60px] w-[196px] h-[85px] px-1;
         }
       }
     }
@@ -286,7 +286,7 @@ body {
     @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
     h2 {
-      @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-fondamento text-center text-[#c0fd6ba1] mb-8;
+      @apply relative md:text-[20vw] text-8xl max-sm:text-7xl text-nowrap leading-none font-fondamento text-center text-[#c0fd6ba1] mb-8;
     }
 
     .content {
@@ -294,27 +294,27 @@ body {
     }
 
     .cocktail-img {
-      @apply md:w-[60vw] w-full h-[50vh] md:h-[70vh] rounded-4xl overflow-hidden absolute top-0 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
+      @apply md:w-[60vw] w-full h-[50vh] md:h-[70vh] rounded-4xl overflow-hidden absolute top-20 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
     }
 
     .masked-container {
       h2 {
-        @apply text-4xl md:text-5xl font-fondamento text-center mb-10 text-light-green mt-32;
+        @apply text-4xl md:text-5xl font-fondamento text-center mb-10 text-light-green mt-74;
       }
 
       div {
         @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-92 left-1/2 -translate-x-1/2;
 
         .a-left-leaf {
-          @apply object-contain absolute -bottom-10 max-sm:-bottom-30 -left-80 max-md:-left-40 w-full -z-10;
+          @apply object-contain absolute -bottom-10 max-sm:-bottom-30 -left-80 max-sm:-left-10 max-md:-left-40 w-full -z-10;
         }
 
         .a-right-leaf {
-          @apply object-contain absolute -bottom-30 max-sm:bottom-20 -right-80 max-md:-right-40 w-full -z-10;
+          @apply object-contain absolute -bottom-30 max-sm:bottom-20 -right-80 max-sm:-right-17 max-md:-right-40 w-full -z-10;
         }
 
         h3 {
-          @apply lg:text-5xl max-sm:text-4xl text-2xl text-center font-sans w-full translate-y-5 text-gradient;
+          @apply lg:text-5xl max-sm:text-3xl text-2xl text-center font-sans w-full translate-y-5 text-gradient;
         }
 
         p {

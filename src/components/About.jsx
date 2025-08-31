@@ -91,8 +91,8 @@ const About = () => {
           <div className="md:col-span-8">
             <p className="badge">Best Cocktails</p>
             <h2 ref={titleRef}>
-              Crafted with care, <br />{" "}
-              <span className="text-light-green">from the first mix</span>{" "}
+              Crafted with care,
+              <span className="text-light-green"> from the first mix</span>{" "}
               <span className="text-green"> to the final flourish.</span>
             </h2>
           </div>
@@ -129,26 +129,26 @@ const About = () => {
                 />
               </span>
 
-              <span className="linear-gradient users-icons flex-center -space-x-5">
+              <span className="linear-gradient users-icons flex-center -space-x-6 xl:-space-x-4">
                 <img
                   src="/images/profile1.png"
                   alt="profile 1"
-                  className="w-12 h-12"
+                  className="max-lg:w-10 max-lg:h-10 lg:w-12 lg:h-12"
                 />
                 <img
                   src="/images/profile2.png"
                   alt="profile 2"
-                  className="w-12 h-12"
+                  className="max-lg:w-10 max-lg:h-10 lg:w-12 lg:h-12 max-lg:block max-xl:hidden"
                 />
                 <img
                   src="/images/profile3.png"
                   alt="profile 3"
-                  className="w-12 h-12"
+                  className="max-lg:w-10 max-lg:h-10 lg:w-12 lg:h-12"
                 />
                 <img
                   src="/images/profile4.png"
                   alt="profile 4"
-                  className="w-12 h-12"
+                  className="max-lg:w-10 max-lg:h-10 lg:w-12 lg:h-12"
                 />
               </span>
             </section>

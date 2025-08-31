@@ -49,7 +49,7 @@ const Art = () => {
         <h2 className="will-fade">The ART</h2>
 
         <div className="content">
-          <ul className="space-y-4 will-fade flex flex-col items-center w-[260px] sm:w-auto">
+          <ul className="space-y-4 max-sm:translate-y-14 will-fade flex flex-col items-center w-[260px] sm:w-auto">
             {goodLists.map((feature, index) => (
               <li
                 key={index}
@@ -69,7 +69,7 @@ const Art = () => {
             />
           </div>
 
-          <ul className="space-y-4 will-fade flex flex-col items-center w-[260px] sm:w-auto">
+          <ul className="space-y-4 max-sm:translate-y-9 will-fade flex flex-col items-center w-[260px] sm:w-auto ">
             {featureLists.map((feature, index) => (
               <li
                 key={index}
