@@ -48,16 +48,17 @@ I made it my own by:
 
 👉 **Responsive Experience** – All animations and layouts adapt seamlessly across desktop, tablet, and mobile.
 
-## 📸 Demo
+## 💻 Demo
 
 👉 [Live Demo](https://cocktails-gsap-project.netlify.app/)
 
 ## 📸 Screenshots
 
+<img src="./screenshots/screenshot-desktop.png" width="100%" />
+
 <p align="center">
-  <img src="./screenshots/screenshot-desktop.png" width="30%" />
-  <img src="./screenshots/screenshot-tablet.png" width="30%" />
-  <img src="./screenshots/screenshot-mobile.png" width="30%" />
+  <img src="./screenshots/screenshot-tablet.png" width="40%" />
+  <img src="./screenshots/screenshot-mobile.png" width="20%" />
 </p>
 
 ## ⚙️ Installation & Setup
