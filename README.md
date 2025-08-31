@@ -52,19 +52,31 @@ I made it my own by:
 
 👉 [Live Demo](https://cocktails-gsap-project.netlify.app/)
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./screenshots/screenshot-desktop.png" width="30%" />
+  <img src="./screenshots/screenshot-tablet.png" width="30%" />
+  <img src="./screenshots/screenshot-mobile.png" width="30%" />
+</p>
+
 ## ⚙️ Installation & Setup
 
-Clone the repository:
+Clone the Repository:
 
 ```bash
 git clone https://github.com/PollyT249/cocktail_landing_project.git
 cd cocktail_landing_project
+```
 
 Install the project dependencies using npm:
 
+```bash
 npm install
+```
 
 Running the Project
 
+```bash
 npm run dev
 ```
